@@ -1,10 +1,11 @@
 package Task_1;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class UserService {
-    private static HashMap<String, String> db = new HashMap<>();
+    private static Map<String, String> db = new HashMap<>();
     private static Scanner scn = new Scanner(System.in);
 
     public static void addUser() {
